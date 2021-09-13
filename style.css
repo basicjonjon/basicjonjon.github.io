@@ -1,8 +1,8 @@
 body {
-     font:100% arial;
+     font:100% arial ;
+     color: white;
+
      background-image:url(backgroundindex.png);
-     background-size: 100%;
-     background-repeat: no-repeat;
      }
 img{border-radius: 30px;}     
 
@@ -30,3 +30,12 @@ img{border-radius: 30px;}
 
   h1{text-align: center;color: red; text-decoration: underline red;}
   h2{text-align: center;color: red; text-decoration: underline red;}
+
+  .background-image{
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-size: auto ;
+    
+   
+  }
